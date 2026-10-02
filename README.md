@@ -1,18 +1,3 @@
----
-license: apache-2.0
-base_model: distilbert-base-uncased
-tags:
-- text-classification
-- sentiment-analysis
-- fine-tuned
-pipeline_tag: text-classification
-language:
-- en
-metrics:
-- accuracy
-- ro_auc
----
-
 # Fine-Tuning DistilBERT for YouTube Comment Sentiment Analysis
 
 Binary sentiment classification (Positive / Negative) of YouTube comments by fully fine-tuning `distilbert-base-uncased`. The video title is fed to the model together with the comment to give it the context needed to interpret ambiguous comments.
