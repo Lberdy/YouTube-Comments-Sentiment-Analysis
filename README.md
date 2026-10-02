@@ -9,14 +9,13 @@ Binary sentiment classification (Positive / Negative) of YouTube comments by ful
 ## Table of Contents
 
 - [Overview](#overview)
+- [Link to Hugging Face](#link-to-hugging-face)
 - [Dataset](#dataset)
 - [Preprocessing](#preprocessing)
 - [Model](#model)
 - [Training Configuration](#training-configuration)
 - [Training Results](#training-results)
 - [Test Results](#test-results)
-- [Limitations](#limitations)
-- [Future Work](#future-work)
 
 ---
 
@@ -26,7 +25,7 @@ YouTube comments are informal, full of abbreviations and emojis, and often only 
 
 To address this, each input combines the comment with the video title, and a pre-trained transformer (DistilBERT) is fully fine-tuned on the resulting binary classification task.
 
-## Link on Hugging Face
+## Link to Hugging Face
 https://huggingface.co/Lberdy/yt_comments_sentiment_analysis
 
 ## Dataset
