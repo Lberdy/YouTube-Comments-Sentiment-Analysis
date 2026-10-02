@@ -26,6 +26,9 @@ YouTube comments are informal, full of abbreviations and emojis, and often only 
 
 To address this, each input combines the comment with the video title, and a pre-trained transformer (DistilBERT) is fully fine-tuned on the resulting binary classification task.
 
+## Link on Hugging Face
+https://huggingface.co/Lberdy/yt_comments_sentiment_analysis
+
 ## Dataset
 
 English YouTube comments, each paired with the title of its video and a sentiment label. The original data had three classes (Positive, Negative, Neutral). The **Neutral class was removed** because it was ambiguous and noticeably degraded performance in early experiments.
